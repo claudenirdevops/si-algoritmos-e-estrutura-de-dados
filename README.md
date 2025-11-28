@@ -1,2 +1,2 @@
-# SI-Algoritmos e Estrutura de Dados
-Curso de Algoritmos e Estruturas de Dados
+# Algoritmos e Estrutura de Dados
+Algoritmos e Estruturas de Dados do Curso de Sistemas de Informação
