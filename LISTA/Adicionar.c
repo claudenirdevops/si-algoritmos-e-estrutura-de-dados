@@ -12,7 +12,14 @@ struct Node* newNode = criarNovoNode(dado);
 
 // Inserção de um novo nó no meio da lista
 
+struct Node* newNode = criarNovoNode(dado);
+newNode->proximo = nodeAnterior->proximo;
+nodeAnterior->proximo = newNode;
 
+//Adciocionar nó no final da lista
 
+struct Node* newNode = criarNovoNode(dado);
+newNode->proximo = NULL;
+ultimoNode->proximo = newNode;
+ultimoNode = newNode;
 
-    //Adciocionar nó no final da lista
